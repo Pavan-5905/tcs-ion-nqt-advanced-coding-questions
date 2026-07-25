@@ -14,7 +14,7 @@ class SurvivalGame {
                 neg=true;
             sum+=Math.abs(x);
             min=Math.min(min, Math.abs(x));
-        }int ans=0;
+        }int ans;
         if(pos&&neg)
             ans=sum;
         else if(pos)
